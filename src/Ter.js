@@ -15,7 +15,7 @@ const Ter = () => {
     const[userLoggedIn, setUserLoggedIn] =useState(false);
   return (
     <div>
-        <Greeting isUserLoggedIn = {userLoggedIn}/>
+        <Greeting isUserLoggedIn = { userLoggedIn }/>
         <button onClick={ () =>
         setUserLoggedIn(!userLoggedIn)}>login</button>
     </div>

@@ -8,7 +8,7 @@ export default class Myclass extends Component {
         };
     }
 
-    handleClick =()=>{
+    handleClick = () => {
         this.setState({
             message: "button click"
         });
